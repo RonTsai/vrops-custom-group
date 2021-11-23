@@ -7,9 +7,10 @@ Automatically create custom dynamic groups in vROps server as per vCenter Tags a
 
 The initial script was developed by my colleague Sajal Debnath.
 For more details check the blog at https://sajaldebnath.com/posts/automatically-create-custom-groups-vrops-per-vcenter-tags/
-But this script was not valid on vRops8+
 
-I have based his script to modify the vCenter Tags part, and create another script for Custom Attribute.
+But his script was not valid on vRops8+
+
+I have based his script to modify the vCenter Tags part, and add another script for Custom Attribute.
 
 So in here.
 You can create custom attribute by vCenter Tags and also can create by Cusotm Attribute.
