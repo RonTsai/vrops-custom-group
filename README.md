@@ -15,6 +15,8 @@ I have based his script to modify the vCenter Tags part, and add another script 
 So in here.
 You can create custom attribute by vCenter Tags and also can create by Cusotm Attribute.
 1.  Tag data set example, it will create custom group "VCSA". with criteria "VC-Mon" 
+    ,custom group "tag". with criteria "test" ... etc 
+
     {
         "tagName":  "VCSA",
         "categoryName":  "VC-Mon"
@@ -28,7 +30,11 @@ You can create custom attribute by vCenter Tags and also can create by Cusotm At
         "categoryName":  "test"
     },
     
+  
  2. Custom Attribute set example, it will create custom group "ASSET-vRa8" with critera (attribute key) - ASSET equal (attribute value) - vRa8 
+    , "ASSET-vRa7" with critera (attribute key) - ASSET equal (attribute value) - vRa7   etc...
+
+
     {
         "attrKey":  "ASSET",
         "attrValue":  "vRa8"
